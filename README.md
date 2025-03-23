@@ -1,1 +1,1 @@
-[Check out my live project!](https://formcreatorapp-client.onrender.com)
+[click for live project!](https://formcreatorapp-client.onrender.com)
