@@ -1,0 +1,106 @@
+.form-builder-container {
+    text-align: center;
+    padding: 20px;
+    background: #f9f9f9;
+  }
+  
+  .form-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form-builder {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    background: #fff;
+  }
+  
+  .left-panel {
+    width: 50%;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .right-panel {
+    width: 40%;
+    padding: 10px;
+    text-align: left;
+    border-left: 2px solid #ddd;
+  }
+  
+  /* Edit Icon */
+  .edit-icon {
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  /* Buttons styling */
+  button {
+    display: block;
+    margin: 10px 0;
+    padding: 8px;
+    width: 100%;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Add Input Options styling */
+  .input-options {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .input-options button {
+    background: #2196f3;
+    width: auto;
+    padding: 5px 15px;
+  }
+  
+  /* Individual field style */
+  .field-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+  }
+  
+  /* Highlight selected field */
+  .field-item.selected {
+    border: 2px solid #4caf50;
+    background: #eaffea;
+  }
+  
+  /* Form Editor inputs */
+  input {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* Submit button styling */
+  .submit-btn {
+    background: #28a745;
+  }
+  
+  .create-form-btn {
+    width: 50%;
+    margin: 20px auto;
+    display: block;
+    background: #006400;
+  }
+  
